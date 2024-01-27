@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.spinner {
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border:-size-8-px solid;
+    border-color:#444444 #0000;
+    animation:s1 1s infinite;
+  }
+@keyframes spinner {to{transform: rotate(.5turn)}}
